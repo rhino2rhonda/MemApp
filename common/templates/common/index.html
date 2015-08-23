@@ -1,0 +1,51 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Welcome To Mem App</title>
+          <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{% static 'common/style.css' %}"/>
+    </head>
+    <body>
+        <div id="title" class="col-12">
+            <a id="home-button" class="button" href="#">HOME</a>
+            <h1 id="title-text">Mem App</h1>
+        </div>
+        <div id ="side-bar" class="col-3">
+            <h3>Data Entry Options</h3>
+            <ul>
+                <li class="button"><a href="#">Browse Categories</a></li>
+                <li class="button"><a href="#">Favorites</a></li>
+            </ul>
+            <h3>My Views</h3>
+            <ul>
+                <li class="button"><a href="#">Today</a></li>
+            </ul>
+        </div>
+        <div id ="content" class="col-9">
+            <h3>Favourites</h3>
+            <div id="content1" class="button">
+                <a class="button" href="#">TODO</a>
+            </div>
+            <div id="content2" class="button">
+                <a class="button" href="#">Bookmarks</a>
+            </div>
+            <div id="content3" class="button">
+                <a class="button" href="#">Notes</a>
+            </div>
+            <div id="content4" class="button">
+                <a class="button" href="#">Checkout</a>
+            </div>
+            <div id="content5" class="button">
+                <a class="button" href="#">MSSB</a>
+            </div>
+        </div>
+    </body>
+</html>

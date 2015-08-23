@@ -1,0 +1,15 @@
+22/08/2015
+
+Last Work Done:
+1. Setup a Djano Project
+2. Got the Homepage with css running
+3. Looked into ajax
+
+Tasks Ahead:
+1. Focus on TODO Category
+2. Create Feature Model for TODO
+3. Create Data Entry Views
+4. Create Today, and other views for TODO
+5. Incorporate Tree View in sidebar
+6. Test this shizznit
+7. Select second category
