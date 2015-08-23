@@ -4,6 +4,8 @@ Last Work Done:
 1. Setup a Djano Project
 2. Got the Homepage with css running
 3. Looked into ajax
+4. Static Pages, todo, etc..
+5. Some Models
 
 Tasks Ahead:
 1. Focus on TODO Category
@@ -13,3 +15,4 @@ Tasks Ahead:
 5. Incorporate Tree View in sidebar
 6. Test this shizznit
 7. Select second category
+8. Figure out Navigation

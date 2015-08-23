@@ -1,0 +1,31 @@
+{% extends "common/base.html" %}
+
+{% block contents %}
+	<h3> New To Do Entry </h1>
+	<form action="" method="get">
+		Title:<br>
+		<input type="text" placeholder="Enter a Title" required/>
+		<br><br>Content:<br>
+		<textarea rows="5" cols="50" placeholder="Enter Some Content" required></textarea>
+		<br><br>Category:<br>
+		<select>
+			<option value="home-todo"> Home </option>
+			<option value="home-todo"> Office </option>
+			<option value="home-todo"> MSSB </option>
+			<option value="home-todo"> Misc </option>
+		</select>
+		<br><br>Tags:<br>
+		<input type="text" placeholder="Enter some tags"/>
+		<br><br>Target Completion Date:<br>
+		<input type="date"/>
+		<br><br>Deadline:<br>
+		<input type="date"/>
+		<br><br>Notification Method:<br>
+		<select>
+			<option value="none"> None </option>
+			<option value="sms"> SMS </option>
+			<option value="email"> EMAIL </option>
+		</select>
+		<br><br><input type="button" value="Save">
+	</form>
+{% endblock contents %}

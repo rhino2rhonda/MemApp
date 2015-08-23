@@ -19,5 +19,5 @@ from common import urls as common_urls
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^', include(common_urls)),
+    url(r'^', include(common_urls, namespace='common')),
 ]
