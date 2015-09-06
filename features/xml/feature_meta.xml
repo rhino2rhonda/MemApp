@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature_list>
+	<feature id="1" key_name="title" model_class="FeatureTitle" default_ui_rank="1"/>
+	<feature id="2" key_name="content" model_class="FeatureContent" default_ui_rank="2"/>
+	<feature id="3" key_name="target_completion" model_class="FeatureTargetCompletionTime" default_ui_rank="3"/>
+</feature_list>

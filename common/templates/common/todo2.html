@@ -1,0 +1,12 @@
+{% extends "common/base.html" %}
+
+{% block contents %}
+	<h1> {{ note_name }} </h1>
+	<form action="" method="get">
+		{% csrf_token %}
+		{% for ff in feature_forms %}
+			<h3> {{ ff.name }} </h3>
+    		{{ ff.form.as_p }}
+    	{% endfor %}
+	</form>
+{% endblock contents %}

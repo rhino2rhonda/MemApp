@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from common import urls as common_urls
+from notes import urls as note_urls
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^', include(common_urls, namespace='common')),
+    url(r'^notes/', include(note_urls, namespace='notes')),
 ]

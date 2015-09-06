@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note_list>
+	<note id="0" key_name="root" parent="none" />
+	<note id="1" key_name="todo" parent="root" />
+</note_list>

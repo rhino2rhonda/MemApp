@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template_list>
+	<note_template key_name="todo">
+		<note_name>Todo Note</note_name>
+		<ordered_features inherit="TRUE">
+			<feature_template key_name="title" />
+			<feature_template key_name="content" />
+			<feature_template key_name="target_completion" />
+		</ordered_features>
+	</note_template>
+</template_list>
